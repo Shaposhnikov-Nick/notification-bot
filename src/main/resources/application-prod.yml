@@ -1,0 +1,13 @@
+server:
+  port: ${SERVER_PORT}
+
+
+bot:
+  name: ${BOT_NAME}
+  token: ${BOT_TOKEN}
+  owner: ${OWNER_CHAT_ID}
+  recipients:
+    - ${OWNER_CHAT_ID}
+
+gitlab:
+  token: ${GITLAB_TOKEN}
